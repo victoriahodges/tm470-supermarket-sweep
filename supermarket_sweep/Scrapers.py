@@ -3,12 +3,12 @@ class Tesco_spider(scrapy.Spider):
     name = 'tesco'
     allowed_domains = ['https://www.tesco.com']
     # start_urls=["https://www.tesco.com/groceries/en-GB/search?query=apples"]
-    def __init__(self,seaches):
-        assert type(seaches)==list
+    def __init__(self,searches):
+        assert type(searches)==list
         # root='https://www.tesco.com/groceries/en-GB/search?query='
         # start_urls = []
-        # for seach in seaches:
-        #     tmp=root + seach
+        # for search in searches:
+        #     tmp=root + search
         #     start_urls.append(tmp)
         
         
